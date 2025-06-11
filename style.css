@@ -55,7 +55,7 @@ body {
 
 }
 
-.ph-map-pin{
+.pin{
    font-size: 18px;
 }
 
@@ -127,3 +127,141 @@ body {
    text-align: justify;
 
 }
+
+/* .container{
+   background-color: #B1977C;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 90%;
+   margin: 0 auto;
+} */
+
+.description{
+   background-color: #B1977C;
+   height: auto;
+   margin: 30px 0px;
+   padding: 30px 30px;
+   /* display: flex;
+   flex-direction: row; */
+   text-align: left;
+}
+
+.description_tags{
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 20px 0px;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    /* background: #EEE5E0;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(55, 33, 7, 0.1); */
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 5px;
+    font-family: 'Old Standard TT';
+}
+
+/* p {
+    color: #666;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+p{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.description_property{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+
+}
+
+.swipe-container {
+    overflow-x: auto;              
+    display: flex;                 
+    gap: 15px;                     
+    padding: 20px 0;              
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+}
+
+
+.swipe-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.swipe-card {
+    min-width: 250px;              
+    height: 250px;                 
+    background: #6D3F25;
+    border-radius: 15px;           
+    display: flex;                 
+    align-items: center;           
+    justify-content: center;       
+    color: white;            
+    font-weight: bold;             
+    scroll-snap-align: start;      
+    flex-shrink: 0;              
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    font-size: 18px;
+}
+
+.swipe-card:nth-child(2n) {
+    background: #AE8D77;
+}
+
+.swipe-card:nth-child(3n) {
+    background: #39271D;
+}
+
+.swipe-card:nth-child(4n) {
+    background: #6D3F25;
+}
+
+.swipe-card:nth-child(5n) {
+    background: #DDDBCF;
+}
+
+/* 
+@media (max-width: 480px) {
+    .container {
+        margin: 0;
+        border-radius: 0;
+        padding: 20px 15px;
+    }
+    
+    .swipe-card {
+        min-width: 200px;          
+        height: 200px;
+        font-size: 16px;
+    }
+    
+    .swipe-container {
+        gap: 12px;               
+        padding: 15px 0;
+    }
+} */
+
+
+@media only screen and (min-width: 768px) {
+   .description{
+   display: flex;
+   flex-direction: row;
+   text-align: left;
+   gap: 0px;
+   }
+}
+
+
+   background-color: #B1977C;
+   height: auto;
+   margin: 30px 0px;
+   padding: 30px 30px;
