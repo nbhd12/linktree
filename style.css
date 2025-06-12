@@ -84,7 +84,17 @@ body {
   /* transform: scale(1.10); */
   background-color: #d2c3b4;
   border: 1px solid #ffffff;
+  cursor: pointer;
 }
+
+.links-linka:hover {
+  /* transform: scale(1.10); */
+  background-color: #d2c3b4;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+
 
 .links-circle {
   background-color: #6d3f25;
@@ -118,6 +128,13 @@ body {
   background-color: #ffffff;
   border: 2px solid #d2c3b4;
   border-radius: 20%;
+}
+
+.contact:hover {
+  background-color: #ffffff;
+  border: 2px solid #d2c3b4;
+  border-radius: 20%;
+  cursor: pointer;
 }
 
 .contact-vite {
@@ -170,10 +187,6 @@ h2 {
   text-wrap: wrap;
 }
 
-/* p {
-    color: #666;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
 
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
