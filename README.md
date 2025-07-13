@@ -21,7 +21,7 @@ Des effets au survol et une présentation claire assurent une navigation fluide.
 
 ---
 
-## 🧩 Linktree – Responsive Link Page (EN)
+## Linktree – Responsive Link Page (EN)
 
 This is a personal **link page** built to **centralize all your important links** in one place.  
 Created using **HTML and CSS**, the layout follows a **mobile-first** design with a clean visual style.
